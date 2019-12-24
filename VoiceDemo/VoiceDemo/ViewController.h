@@ -6,11 +6,10 @@
 //  Copyright © 2019 genetek. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BasicViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : BasicViewController
 
 - (IBAction)callButton:(UIButton *)sender;
 
 @end
-

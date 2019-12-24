@@ -15,6 +15,13 @@
 		6314BCD923B06A0A007104EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6314BCD823B06A0A007104EB /* main.m */; };
 		6314BCE323B06A0A007104EB /* VoiceDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6314BCE223B06A0A007104EB /* VoiceDemoTests.m */; };
 		6314BCEE23B06A0A007104EB /* VoiceDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6314BCED23B06A0A007104EB /* VoiceDemoUITests.m */; };
+		6314BD0023B0A284007104EB /* AgoraRtmKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6314BCFF23B0A284007104EB /* AgoraRtmKit.framework */; };
+		6314BD0223B0A291007104EB /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6314BD0123B0A291007104EB /* libc++.tbd */; };
+		6314BD0423B0A29A007104EB /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6314BD0323B0A29A007104EB /* libresolv.tbd */; };
+		6314BD0623B0A2AF007104EB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6314BD0523B0A2AF007104EB /* SystemConfiguration.framework */; };
+		6314BD0823B0A2BB007104EB /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6314BD0723B0A2BB007104EB /* CoreTelephony.framework */; };
+		6314BD0A23B0A512007104EB /* GenetekMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 6314BD0923B0A512007104EB /* GenetekMgr.m */; };
+		6314BD0E23B0AF4A007104EB /* BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6314BD0D23B0AF4A007104EB /* BasicViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,15 @@
 		6314BCE923B06A0A007104EB /* VoiceDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6314BCED23B06A0A007104EB /* VoiceDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoiceDemoUITests.m; sourceTree = "<group>"; };
 		6314BCEF23B06A0A007104EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6314BCFF23B0A284007104EB /* AgoraRtmKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraRtmKit.framework; path = libs/AgoraRtmKit.framework; sourceTree = "<group>"; };
+		6314BD0123B0A291007104EB /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		6314BD0323B0A29A007104EB /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		6314BD0523B0A2AF007104EB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6314BD0723B0A2BB007104EB /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		6314BD0923B0A512007104EB /* GenetekMgr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenetekMgr.m; sourceTree = "<group>"; };
+		6314BD0B23B0A640007104EB /* GenetekMgr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GenetekMgr.h; path = GenetekSolution/GenetekMgr.h; sourceTree = SOURCE_ROOT; };
+		6314BD0C23B0AF4A007104EB /* BasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicViewController.h; sourceTree = "<group>"; };
+		6314BD0D23B0AF4A007104EB /* BasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6314BD0823B0A2BB007104EB /* CoreTelephony.framework in Frameworks */,
+				6314BD0623B0A2AF007104EB /* SystemConfiguration.framework in Frameworks */,
+				6314BD0423B0A29A007104EB /* libresolv.tbd in Frameworks */,
+				6314BD0223B0A291007104EB /* libc++.tbd in Frameworks */,
+				6314BD0023B0A284007104EB /* AgoraRtmKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +107,7 @@
 				6314BCE123B06A0A007104EB /* VoiceDemoTests */,
 				6314BCEC23B06A0A007104EB /* VoiceDemoUITests */,
 				6314BCC723B06A08007104EB /* Products */,
+				6314BCFE23B0A284007104EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +124,8 @@
 		6314BCC823B06A08007104EB /* VoiceDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6314BD0C23B0AF4A007104EB /* BasicViewController.h */,
+				6314BD0D23B0AF4A007104EB /* BasicViewController.m */,
 				6314BCC923B06A08007104EB /* AppDelegate.h */,
 				6314BCCA23B06A08007104EB /* AppDelegate.m */,
 				6314BCCC23B06A08007104EB /* ViewController.h */,
@@ -137,6 +161,8 @@
 			isa = PBXGroup;
 			children = (
 				6314BCFD23B06B0A007104EB /* RTM */,
+				6314BD0B23B0A640007104EB /* GenetekMgr.h */,
+				6314BD0923B0A512007104EB /* GenetekMgr.m */,
 			);
 			path = GenetekSolution;
 			sourceTree = "<group>";
@@ -146,6 +172,18 @@
 			children = (
 			);
 			path = RTM;
+			sourceTree = "<group>";
+		};
+		6314BCFE23B0A284007104EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6314BD0723B0A2BB007104EB /* CoreTelephony.framework */,
+				6314BD0523B0A2AF007104EB /* SystemConfiguration.framework */,
+				6314BD0323B0A29A007104EB /* libresolv.tbd */,
+				6314BD0123B0A291007104EB /* libc++.tbd */,
+				6314BCFF23B0A284007104EB /* AgoraRtmKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,8 +316,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6314BD0A23B0A512007104EB /* GenetekMgr.m in Sources */,
 				6314BCCE23B06A08007104EB /* ViewController.m in Sources */,
 				6314BCD923B06A0A007104EB /* main.m in Sources */,
+				6314BD0E23B0AF4A007104EB /* BasicViewController.m in Sources */,
 				6314BCCB23B06A08007104EB /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -453,7 +493,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PKDB38DRR3;
+				DEVELOPMENT_TEAM = KK25MC3SMT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs",
+				);
 				INFOPLIST_FILE = VoiceDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -472,7 +516,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PKDB38DRR3;
+				DEVELOPMENT_TEAM = KK25MC3SMT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs",
+				);
 				INFOPLIST_FILE = VoiceDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
